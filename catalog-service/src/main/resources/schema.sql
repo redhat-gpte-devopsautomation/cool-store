@@ -7,7 +7,6 @@ CREATE TABLE catalog (
   price DOUBLE PRECISION
 );
 
-
 insert into catalog (itemId, name, description, price) values ('329299', 'Quarkus T-shirt', '', 10.00);
 insert into catalog (itemId, name, description, price) values ('329199', 'Pronounced Kubernetes', '', 9.00);
 insert into catalog (itemId, name, description, price) values ('165613', 'Knit socks', '',4.15);
