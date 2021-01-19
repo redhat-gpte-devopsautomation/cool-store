@@ -1,0 +1,3 @@
+= Cool Store Microservices Application
+
+image::./images/cool-store-fully-deployed.png[]
