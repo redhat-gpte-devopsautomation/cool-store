@@ -1,0 +1,10 @@
+# Configuration file
+quarkus.mongodb.connection-string = mongodb://order-database:27017
+
+# Incoming payment topic messages
+mp.messaging.incoming.payments.bootstrap.servers=my-cluster-kafka-bootstrap:9092
+mp.messaging.incoming.payments.group.id=order-service
+
+# Incoming order topic messages
+mp.messaging.incoming.orders.bootstrap.servers=my-cluster-kafka-bootstrap:9092
+mp.messaging.incoming.orders.group.id=order-service
