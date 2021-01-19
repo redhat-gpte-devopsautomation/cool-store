@@ -1,0 +1,6 @@
+# Database configuration
+quarkus.datasource.url=jdbc:postgresql://inventory-database:5432/inventory
+quarkus.datasource.driver=org.postgresql.Driver
+quarkus.datasource.username=inventory
+quarkus.datasource.password=inventory
+
