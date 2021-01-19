@@ -1,0 +1,7 @@
+# Outgoing stream
+mp.messaging.outgoing.payments.bootstrap.servers=my-cluster-kafka-bootstrap:9092
+mp.messaging.outgoing.payments.topic=payments
+
+# Incoming stream
+mp.messaging.incoming.orders.bootstrap.servers=my-cluster-kafka-bootstrap:9092
+mp.messaging.incoming.orders.group.id=payment-order-service
