@@ -1,12 +1,6 @@
-
 # DataGrid
 quarkus.infinispan-client.server-list=datagrid-service:11222
-#quarkus.infinispan-client.auth-username=datagrid
-#quarkus.infinispan-client.auth-password=datagrid
-#quarkus.infinispan-client.auth-server-name=infinispan
-#quarkus.infinispan-client.auth-realm=default
-#quarkus.infinispan-client.sasl-mechanism=DIGEST-MD5
 
 # Kafka messaging
-mp.messaging.outgoing.orders.bootstrap.servers=my-cluster-kafka-bootstrap:9092
-mp.messaging.outgoing.orders.topic=orders
+mp.messaging.outgoing.orders.bootstrap.servers=amqstreams-cluster-kafka-bootstrap.amqstreams.svc:9092
+mp.messaging.outgoing.orders.topic=orders-user1
