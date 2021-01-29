@@ -1,0 +1,7 @@
+# Outgoing stream
+mp.messaging.outgoing.payments.bootstrap.servers=amqstreams-cluster-kafka-bootstrap.amqstreams.svc:9092
+mp.messaging.outgoing.payments.topic=dev-payments-user1
+
+# Incoming stream
+mp.messaging.incoming.orders.bootstrap.servers=amqstreams-cluster-kafka-bootstrap.amqstreams.svc:9092
+mp.messaging.incoming.orders.topic=dev-orders-user1
