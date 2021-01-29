@@ -1,15 +1,7 @@
-# Production
-server.port=8080
+# Database Connection
 spring.datasource.url=jdbc:postgresql://catalog-database:5432/catalog
 spring.datasource.username=catalog
 spring.datasource.password=catalog
-spring.datasource.initialization-mode=always
-spring.datasource.initialize=true
-spring.datasource.schema=classpath:/schema.sql
-spring.datasource.continue-on-error=true
-
-feign.hystrix.enabled=true
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=20000
 
 # Service URL of the Inventory Service
 inventory.url=inventory:8080
